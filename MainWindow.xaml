@@ -25,7 +25,7 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=fromUSD}" Value="true">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/pics/Flag_of_the_United_States.png" Opacity="0.75"/>
+                                    <ImageBrush ImageSource="/pics/Flag_of_the_United_States.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -33,7 +33,7 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=fromEUR}" Value="true">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/pics/Flag_of_Europe.svg.png" Opacity="0.75"/>
+                                    <ImageBrush ImageSource="/pics/Flag_of_Europe.svg.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -41,7 +41,7 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=fromRUB}" Value="true">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/pics/Flag_of_Russia.png" Opacity="0.75"/>
+                                    <ImageBrush ImageSource="/pics/Flag_of_Russia.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -49,7 +49,7 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=fromUAH}" Value="true">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/pics/ukraine-flag_3000x2000.png" Opacity="0.75"/>
+                                    <ImageBrush ImageSource="/pics/ukraine-flag_3000x2000.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -57,7 +57,7 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=fromMDL}" Value="true">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/pics/Moldova_flag_large-02.png" Opacity="0.75"/>
+                                    <ImageBrush ImageSource="/pics/Moldova_flag_large-02.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -65,35 +65,35 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=toUSD}" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.75"/>
+                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsChecked, ElementName=toEUR}" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.75"/>
+                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsChecked, ElementName=toRUB}" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.75"/>
+                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsChecked, ElementName=toUAH}" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.75"/>
+                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsChecked, ElementName=toMDL}" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.75"/>
+                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -117,7 +117,7 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=toUSD}" Value="true">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/pics/Flag_of_the_United_States.png" Opacity="0.75"/>
+                                    <ImageBrush ImageSource="/pics/Flag_of_the_United_States.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -125,7 +125,7 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=toEUR}" Value="true">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/pics/Flag_of_Europe.svg.png" Opacity="0.75"/>
+                                    <ImageBrush ImageSource="/pics/Flag_of_Europe.svg.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -133,7 +133,7 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=toRUB}" Value="true">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/pics/Flag_of_Russia.png" Opacity="0.75"/>
+                                    <ImageBrush ImageSource="/pics/Flag_of_Russia.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -141,7 +141,7 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=toUAH}" Value="true">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/pics/ukraine-flag_3000x2000.png" Opacity="0.75"/>
+                                    <ImageBrush ImageSource="/pics/ukraine-flag_3000x2000.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -149,7 +149,7 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=toMDL}" Value="true">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush ImageSource="/pics/Moldova_flag_large-02.png" Opacity="0.75"/>
+                                    <ImageBrush ImageSource="/pics/Moldova_flag_large-02.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -157,35 +157,35 @@
                         <DataTrigger Binding="{Binding IsChecked, ElementName=fromUSD}" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.75"/>
+                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsChecked, ElementName=fromEUR}" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.75"/>
+                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsChecked, ElementName=fromRUB}" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.75"/>
+                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsChecked, ElementName=fromUAH}" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.75"/>
+                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsChecked, ElementName=fromMDL}" Value="True">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.75"/>
+                                    <ImageBrush  ImageSource="/pics/images.png" Opacity="0.66"/>
                                 </Setter.Value>
                             </Setter>
                         </DataTrigger>
@@ -203,53 +203,53 @@
 
             <RadioButton x:Name="fromUSD" Content="USD" Height="32" Width="60" HorizontalAlignment="Left" Checked="from_Checked">
                 <RadioButton.Background>
-                    <ImageBrush ImageSource="/pics/Flag_of_the_United_States.png" Opacity="0.75"/>
+                    <ImageBrush ImageSource="/pics/Flag_of_the_United_States.png" Opacity="0.66"/>
                 </RadioButton.Background>
             </RadioButton>
             <RadioButton x:Name="fromEUR" Content="EUR" Height="32" Width="60" Margin="0,45,0,0" HorizontalAlignment="Left" Checked="from_Checked">
                 <RadioButton.Background>
-                    <ImageBrush ImageSource="/pics/Flag_of_Europe.svg.png" Opacity="0.75"/>
+                    <ImageBrush ImageSource="/pics/Flag_of_Europe.svg.png" Opacity="0.66"/>
                 </RadioButton.Background>
             </RadioButton>
             <RadioButton x:Name="fromRUB" Content="RUB" Height="32" Width="60" Margin="0,90,0,0" HorizontalAlignment="Left" Checked="from_Checked">
                 <RadioButton.Background>
-                    <ImageBrush ImageSource="/pics/Flag_of_Russia.png" Opacity="0.75"/>
+                    <ImageBrush ImageSource="/pics/Flag_of_Russia.png" Opacity="0.66"/>
                 </RadioButton.Background>
             </RadioButton>
             <RadioButton x:Name="fromUAH" Content="UAH" Height="32" Width="60" Margin="0,135,0,0" HorizontalAlignment="Left" Checked="from_Checked">
                 <RadioButton.Background>
-                    <ImageBrush ImageSource="/pics/ukraine-flag_3000x2000.png" Opacity="0.75"/>
+                    <ImageBrush ImageSource="/pics/ukraine-flag_3000x2000.png" Opacity="0.66"/>
                 </RadioButton.Background>
             </RadioButton>
             <RadioButton x:Name="fromMDL" Content="MDL" Height="32" Width="60" Margin="0,180,0,0" HorizontalAlignment="Left" Checked="from_Checked">
                 <RadioButton.Background>
-                    <ImageBrush ImageSource="/pics/Moldova_flag_large-02.png" Opacity="0.75"/>
+                    <ImageBrush ImageSource="/pics/Moldova_flag_large-02.png" Opacity="0.66"/>
                 </RadioButton.Background>
             </RadioButton>
 
             <RadioButton x:Name="toUSD" Content="USD" Height="32" Width="60" HorizontalAlignment="Right" Checked="to_Checked">
                 <RadioButton.Background>
-                    <ImageBrush ImageSource="/pics/Flag_of_the_United_States.png" Opacity="0.75"/>
+                    <ImageBrush ImageSource="/pics/Flag_of_the_United_States.png" Opacity="0.66"/>
                 </RadioButton.Background>
             </RadioButton>
             <RadioButton x:Name="toEUR" Content="EUR" Height="32" Width="60" Margin="0,45,0,0" HorizontalAlignment="Right" Checked="to_Checked">
                 <RadioButton.Background>
-                    <ImageBrush ImageSource="/pics/Flag_of_Europe.svg.png" Opacity="0.75"/>
+                    <ImageBrush ImageSource="/pics/Flag_of_Europe.svg.png" Opacity="0.66"/>
                 </RadioButton.Background>
             </RadioButton>
             <RadioButton x:Name="toRUB" Content="RUB" Height="32" Width="60" Margin="0,90,0,0" HorizontalAlignment="Right" Checked="to_Checked">
                 <RadioButton.Background>
-                    <ImageBrush ImageSource="/pics/Flag_of_Russia.png" Opacity="0.75"/>
+                    <ImageBrush ImageSource="/pics/Flag_of_Russia.png" Opacity="0.66"/>
                 </RadioButton.Background>
             </RadioButton>
             <RadioButton x:Name="toUAH" Content="UAH" Height="32" Width="60" Margin="0,135,0,0" HorizontalAlignment="Right" Checked="to_Checked">
                 <RadioButton.Background>
-                    <ImageBrush ImageSource="/pics/ukraine-flag_3000x2000.png" Opacity="0.75"/>
+                    <ImageBrush ImageSource="/pics/ukraine-flag_3000x2000.png" Opacity="0.66"/>
                 </RadioButton.Background>
             </RadioButton>
             <RadioButton x:Name="toMDL" Content="MDL" Height="32" Width="60" Margin="0,180,0,0" HorizontalAlignment="Right" Checked="to_Checked">
                 <RadioButton.Background>
-                    <ImageBrush ImageSource="/pics/Moldova_flag_large-02.png" Opacity="0.75"/>
+                    <ImageBrush ImageSource="/pics/Moldova_flag_large-02.png" Opacity="0.66"/>
                 </RadioButton.Background>
             </RadioButton>
             <TextBlock Margin="100,63,0,0" Text="FROM" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="True" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18">
