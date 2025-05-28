@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>pics\dukenukem.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="dukenukem.png" />
+    <None Remove="Flag_of_Europe.svg.png" />
+    <None Remove="Flag_of_Russia.png" />
+    <None Remove="Flag_of_the_United_States.png" />
+    <None Remove="images.png" />
+    <None Remove="Moldova_flag_large-02.png" />
+    <None Remove="tenor.gif" />
+    <None Remove="ukraine-flag_3000x2000.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="pics\dukenukem.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pics\dukenukem.png" />
+    <Resource Include="pics\Flag_of_Europe.svg.png" />
+    <Resource Include="pics\Flag_of_Russia.png" />
+    <Resource Include="pics\Flag_of_the_United_States.png" />
+    <Resource Include="pics\images.png" />
+    <Resource Include="pics\Moldova_flag_large-02.png" />
+    <Resource Include="pics\tenor.gif" />
+    <Resource Include="pics\ukraine-flag_3000x2000.png" />
+  </ItemGroup>
+
+</Project>
