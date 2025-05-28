@@ -23,7 +23,7 @@ namespace WpfApp1
             }
             else
             {
-                _mainWindow.outputTextBox.Text = "пошел нахуй";
+                _mainWindow.outputTextBox.Text = "0";
             }
 
         }

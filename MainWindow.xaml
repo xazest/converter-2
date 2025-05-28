@@ -11,7 +11,7 @@
 
     <Grid>
         <Image Source="/pics/tenor.gif" Stretch="Fill" gif:ImageBehavior.AnimatedSource="/pics/tenor.gif"/>
-        <TextBox x:Name="inputTextBox" TextWrapping="Wrap" Text="0" Margin="0,250,360,0" TextAlignment="Center" SnapsToDevicePixels="True" VerticalAlignment="Top" VerticalContentAlignment="Center" MaxHeight="32" MaxWidth="200" MinWidth="30" MaxLength="10" MaxLines="1" TextChanged="inputChanged" FontSize="32" Height="32">
+        <TextBox x:Name="inputTextBox" TextWrapping="Wrap" Text="0" Margin="0,250,380,0" TextAlignment="Center" SnapsToDevicePixels="True" VerticalAlignment="Top" VerticalContentAlignment="Center" MaxHeight="32" MaxWidth="200" MinWidth="30" MaxLength="11" MaxLines="1" TextChanged="inputChanged" FontSize="32" Height="32" PreviewTextInput="input_PreviewTextInput" VerticalScrollBarVisibility="Disabled">
             <TextBox.Style>
                 <Style TargetType="TextBox" BasedOn="{StaticResource BasedTextStyle}">
                     <Setter Property="Background" Value="Transparent"/>
@@ -103,7 +103,7 @@
             </TextBox.Style>
         </TextBox>
 
-        <TextBox x:Name="outputTextBox" TextWrapping="Wrap" Text="0" Margin="360,250,0,0" TextAlignment="Center" SnapsToDevicePixels="True" VerticalAlignment="Top" IsReadOnly="True" FontSize="32" Height="32">
+        <TextBox x:Name="outputTextBox" TextWrapping="Wrap" Text="0" Margin="370,250,0,0" TextAlignment="Center" SnapsToDevicePixels="True" VerticalAlignment="Top" IsReadOnly="True" FontSize="32" Height="32" VerticalScrollBarVisibility="Disabled">
             <TextBox.Style>
                 <Style TargetType="TextBox" BasedOn="{StaticResource BasedTextStyle}">
                     <Setter Property="Background" Value="Transparent"/>

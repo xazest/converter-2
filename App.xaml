@@ -17,12 +17,6 @@
             </Setter>
         </Style>
 
-
-
-        <Style TargetType="Button">
-            <Setter Property="BorderThickness" Value="0,0,0,0"/>
-        </Style>
-
         <Style TargetType="RadioButton" BasedOn="{StaticResource {x:Type ToggleButton}}">
             <Setter Property="TextElement.FontFamily" Value="Times New Roman"/>
             <Setter Property="TextElement.FontSize" Value="25"/>
@@ -43,10 +37,6 @@
                 </RadialGradientBrush>
             </Setter.Value>
             </Setter>
-        </Style>
-
-        <Style TargetType="TextBlock" BasedOn="{StaticResource BasedTextStyle}">
-            
         </Style>
 
     </Application.Resources>
